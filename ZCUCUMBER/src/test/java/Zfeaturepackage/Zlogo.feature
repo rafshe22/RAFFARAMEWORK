@@ -1,5 +1,5 @@
-Feature: feature login feature of new website for testing 
-Scenario: google Logo display test 
-    Given I am on the google page "http://google.com/" 
-    When I search for Google Logo webelement
-    Then I should get webelement is Displayed
+Feature: Testing of website
+Scenario: On website and store google logo
+Given Go website "www.google.com"
+When Search google logo webelement
+Then  Display google logo webelement 
